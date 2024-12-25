@@ -14,9 +14,7 @@ wget https://raw.githubusercontent.com/Temporalitas/ipv6-proxy-server/master/ipv
 ```
 使用Ubantu
 
-sudo如果您不是 root 用户，请取消注释第一行或运行所有命令。
-
-如果脚本已经安装，您只需运行一个命令即可重新配置参数，例如：
+运行命令配置参数，例如：
 
 
 ```bash
