@@ -25,7 +25,7 @@ sudo如果您不是 root 用户，请取消注释第一行或运行所有命令�
 
 
 ```bash
-./ipv6-proxy-server.sh -s 64 -c 20 -u username2 -p password2 -t socks5 -r 2
+./ipv6-proxy-server.sh -s 64 -c 1000 -u username -p password
 ```
 
 Old instance will be disabled and new starts without reinstallation very quickly.
@@ -66,7 +66,9 @@ Proxy server will stopped, all configuration files, firewalls, shedulers and so 
 命令行参数：
 
 -s或--subnet- IPv6子网，在您的服务器上完全分配。任何能被 4 整除的子网（例如48或56），默认64
+
 -c或--proxy-count- 您想要拥有的代理总数（从 1 到 10000）
+
 -t或--proxies-type- 代理类型 -http或socks5.http如果没有提供值，则为默认值
 -u或--username- 所有代理验证登录
 -p或--password- 所有代理都验证密码（如果您既未指定用户名也未指定密码，则代理将在无需验证的情况下运行）
