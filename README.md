@@ -1,15 +1,12 @@
 ## IPv6 Proxy Server [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Create your own IPv6 backconnect proxy server with only one script on any Linux distribution. Any number of random IPs on the subnet, ideal for parsing and traffic arbitrage (Google/Facebook/Youtube/Instagram and many others support IPv6).
-
-Ask questions [in issues](https://github.com/Temporalitas/ipv6-proxy-server/issues), if you have some.
+使用Ubantu
 
 ### Tutorial
 
 Assuming you already have an entire IPv6 subnet (/48 or /64) routed to your server.
 
 Just run:
-
 ```bash
 #sudo su
 wget https://raw.githubusercontent.com/Temporalitas/ipv6-proxy-server/master/ipv6-proxy-server.sh && chmod +x ipv6-proxy-server.sh
