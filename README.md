@@ -15,11 +15,9 @@ Just run:
 wget https://raw.githubusercontent.com/Temporalitas/ipv6-proxy-server/master/ipv6-proxy-server.sh && chmod +x ipv6-proxy-server.sh
 ./ipv6-proxy-server.sh -s 64 -c 1000 -u username -p password
 ```
+使用Ubantu
 
 sudo如果您不是 root 用户，请取消注释第一行或运行所有命令。
-
-
-
 
 如果脚本已经安装，您只需运行一个命令即可重新配置参数，例如：
 
